@@ -1,0 +1,20 @@
+/* Toolbar */
+mat-toolbar {
+  background: #000;
+  color: white;
+  border-bottom: solid 1px #158b3e;
+}
+
+.menu-button span {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu-button span:hover {
+  color: #1db954;
+}
+
+img {
+  height: 40px;
+}

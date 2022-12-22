@@ -1,0 +1,32 @@
+<!-- ToolBar -->
+<mat-toolbar>
+  <!-- Izquierda -->
+
+  <!-- Nombre Curso -->
+  <button mat-button>
+    <img [src]="logo" class="logoApp" />
+  </button>
+
+  <!-- Derecha -->
+  <span class="example-spacer"></span>
+
+  <button mat-button class="menu-button" [routerLink]="['/courses']">
+    <span>Premium</span>
+  </button>
+
+  <button mat-button class="menu-button" [routerLink]="['/']">
+    <span>Ayuda</span>
+  </button>
+
+  <button mat-button class="menu-button" [routerLink]="['/']">
+    <span>Descargar</span>
+  </button>
+
+  <button mat-button class="menu-button" [routerLink]="['/login']">
+    <span>Registrarse</span>
+  </button>
+
+  <button mat-button class="menu-button" [routerLink]="['/login']">
+    <span>Iniciar Sesion</span>
+  </button>
+</mat-toolbar>

@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+mat-dialog-container {
+  background-color: #1f2023 !important;
+}
+
+/* Colors
+
+  #1db954 -> Verde Oscuro
+  #1ed760 -> Verde clarito
+
+*/

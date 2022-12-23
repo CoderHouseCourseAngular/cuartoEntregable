@@ -20,6 +20,15 @@ mat-dialog-container {
   background-color: #1f2023 !important;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+*:focus {
+  outline: none;
+}
+
 /* Colors
 
   #1db954 -> Verde Oscuro

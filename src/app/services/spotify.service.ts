@@ -39,7 +39,7 @@ export class SpotifyService {
       });
     });
 
-    return this.http.get(`${environment.url}?q=${q}&type=track&limit=10`, {
+    return this.http.get(`${environment.url}?q=${q}&type=track&limit=20`, {
       headers: this.headerCustom,
     });
   }

@@ -32,12 +32,28 @@ input::placeholder {
   width: 35rem;
 }
 
+.card-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-text{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .trackCardsContainer {
   padding: 15px;
 }
 
 .trackCardsContainer img {
   padding: 15px;
+}
+
+.trackCardsContainer img:hover {
+  border-bottom: 3px solid #1db954 !important;
 }
 
 .trackCards:hover {
@@ -47,6 +63,11 @@ input::placeholder {
 
 .card {
   max-width: 70vw;
+  background-color: rgb(229, 221, 221);
+}
+
+.card:hover {
+  border: 3px solid #1db954 !important;
 }
 
 .trackCards h3 {
